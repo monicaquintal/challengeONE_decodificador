@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #E5E5E5;
+  width: auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+.principal {
+  margin: 2.5rem;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* área de texto */
+
+.area-texto {
+  margin-left: 4rem;
+}
+
+.texto {
+  margin: 4rem;
+  font-size: 2rem;
+  color: #0A3871;
+}
+
+.obs {
+  margin-top: 10rem;
+  font-size: 0.8rem;
+  color: #495057;
+}
+
+.obs img, p {
+  display: inline-block;
+}
+
+.botoes {
+  margin-top: 1rem;
+}
+
+.botao-cripto {
+  display: inline-block;
+  padding: 1.5rem;
+  gap: 0.5rem;
+
+  background: #0A3871;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+}
+
+.botao-cripto:hover {
+  background: #D8DFE8;
+  color: black;
+  border: 1px solid black;
+}
+
+.botao-descripto {
+background: #D8DFE8;
+padding: 1.5rem;
+gap: 0.5rem;
+
+border: 1px solid #0A3871;
+color: #0A3871;
+border-radius: 1rem;
+}
+
+.botao-descripto:hover {
+  background: #0A3871;
+  color: white;
+  cursor: pointer;
+  }
+
+/* barra lateral */
+
+.barra-lateral {
+  width: 30%;
+  background: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-top: -4rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.info {
+  box-sizing: border-box;
+}
+
+.info p, h3 {
+  text-align: center;
+}
+
+.info h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343A40;
+  line-height: 2rem;
+}
+
+.info p {
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+/* rodapé */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
