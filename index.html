@@ -16,7 +16,7 @@
   <main>
     <section class="area-texto">
       <div class="texto">
-        <h2>Digite seu texto...</h2>
+        <input id="texto-inserido" type="text" name="input" value="" placeholder="Digite aqui o seu texto!">
       </div>
 
       <div class="obs">
@@ -25,15 +25,15 @@
       </div>
       
       <div class="botoes">
-        <button class="botao-cripto">Criptografar</button>
-        <button class="botao-descripto">Descriptografar</button>
+        <button id="botao-cripto" onclick="Criptografar()" type="text" name="criptografar">Criptografar</button>
+        <button id="botao-descripto">Descriptografar</button>
       </div>
     </section>
 
     <section class="barra-lateral">
       <div class="info">
         <img src="./imagens/erro.svg" alt="nenhuma mensagem encontrada">
-        <h3>Nenhuma mensagem encontrada</h3>
+        <h3 id="campo">Nenhuma mensagem encontrada</h3>
         <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
       </div>
     </section>

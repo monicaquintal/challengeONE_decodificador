@@ -34,8 +34,15 @@ main {
 
 .texto {
   margin: 4rem;
+}
+
+.texto input {
+  font-family: 'Inter', sans-serif;
+  margin: 4rem;
   font-size: 2rem;
   color: #0A3871;
+  background: #E5E5E5;
+  border: none;
 }
 
 .obs {
@@ -52,7 +59,7 @@ main {
   margin-top: 1rem;
 }
 
-.botao-cripto {
+#botao-cripto {
   display: inline-block;
   padding: 1.5rem;
   gap: 0.5rem;
@@ -63,13 +70,14 @@ main {
   border-radius: 1rem;
 }
 
-.botao-cripto:hover {
+#botao-cripto:hover {
   background: #D8DFE8;
   color: black;
   border: 1px solid black;
+  box-sizing: border-box;
 }
 
-.botao-descripto {
+#botao-descripto {
 background: #D8DFE8;
 padding: 1.5rem;
 gap: 0.5rem;
@@ -77,9 +85,10 @@ gap: 0.5rem;
 border: 1px solid #0A3871;
 color: #0A3871;
 border-radius: 1rem;
+box-sizing: border-box;
 }
 
-.botao-descripto:hover {
+#botao-descripto:hover {
   background: #0A3871;
   color: white;
   cursor: pointer;
