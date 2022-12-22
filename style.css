@@ -61,7 +61,7 @@ main {
 
 #botao-cripto {
   display: inline-block;
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
   gap: 0.5rem;
 
   background: #0A3871;
@@ -79,7 +79,7 @@ main {
 
 #botao-descripto {
 background: #D8DFE8;
-padding: 1.5rem;
+padding: 1.5rem 3rem;
 gap: 0.5rem;
 
 border: 1px solid #0A3871;
@@ -98,6 +98,7 @@ box-sizing: border-box;
 
 .barra-lateral {
   width: 30%;
+  height: 33rem;
   background: white;
   border-radius: 2rem;
   padding: 2rem;
@@ -113,11 +114,11 @@ box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.info p, h3 {
+.bloco p, h3 {
   text-align: center;
 }
 
-.info h3 {
+.bloco h3 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
@@ -125,9 +126,31 @@ box-sizing: border-box;
   line-height: 2rem;
 }
 
-.info p {
+.bloco p {
   font-weight: 400;
   line-height: 1.5rem;
+}
+
+#adicionar-botao {
+  display: flex;
+  justify-content:center;
+  align-items: baseline;
+}
+
+#botao-copiar {
+  padding: 1.5rem 3rem;
+
+  background: #0A3871;
+  border: 1px solid #0A3871;
+  color: white;
+  border-radius: 1rem;
+}
+
+#botao-copiar:hover {
+  background: #D8DFE8;
+  color: black;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
 /* rodapé */

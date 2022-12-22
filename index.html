@@ -26,15 +26,20 @@
       
       <div class="botoes">
         <button id="botao-cripto" onclick="Criptografar()" type="text" name="criptografar">Criptografar</button>
-        <button id="botao-descripto">Descriptografar</button>
+        <button id="botao-descripto" onclick="Descriptografar()" type="text" name="descriptografar">Descriptografar</button>
       </div>
     </section>
 
     <section class="barra-lateral">
       <div class="info">
-        <img src="./imagens/erro.svg" alt="nenhuma mensagem encontrada">
-        <h3 id="campo">Nenhuma mensagem encontrada</h3>
-        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        <div class="bloco">
+          <img id="imagem" src="./imagens/erro.svg" alt="nenhuma mensagem encontrada">
+          <h3 id="campo">Nenhuma mensagem encontrada</h3>
+          <p id="texto-ocultar">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+        <div id="adicionar-botao" style="display: none;">
+          <button id="botao-copiar" onclick="CopiarTexto()" type="text" name="copiar"> Copiar </button>
+        </div>
       </div>
     </section>
   </main>
