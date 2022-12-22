@@ -36,7 +36,7 @@ main {
   margin: 4rem;
 }
 
-.texto input {
+.texto textarea {
   font-family: 'Inter', sans-serif;
   margin: 4rem;
   font-size: 2rem;
@@ -46,7 +46,7 @@ main {
 }
 
 .obs {
-  margin-top: 10rem;
+  margin-top: 6rem;
   font-size: 0.8rem;
   color: #495057;
 }
@@ -108,14 +108,11 @@ box-sizing: border-box;
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .info {
   box-sizing: border-box;
-}
-
-.bloco p, h3 {
-  text-align: center;
 }
 
 .bloco h3 {
@@ -124,11 +121,15 @@ box-sizing: border-box;
   font-weight: bold;
   color: #343A40;
   line-height: 2rem;
+  text-align: center;
 }
 
-.bloco p {
+#texto-trocar {
   font-weight: 400;
   line-height: 1.5rem;
+  text-align: center;
+  
+  text-overflow: clip;
 }
 
 #adicionar-botao {
@@ -139,6 +140,7 @@ box-sizing: border-box;
 
 #botao-copiar {
   padding: 1.5rem 3rem;
+  margin-top: 2rem;
 
   background: #0A3871;
   border: 1px solid #0A3871;

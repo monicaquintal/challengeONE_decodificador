@@ -10,14 +10,14 @@ function Criptografar() {
   texto = texto.replace(/u/g, 'ufat') 
  
   //seleciona o conteúdo do <h3 id="campo">
-  var conteudoCaixa = document.getElementById("campo");
+  var conteudoCaixa = document.getElementById("texto-trocar");
 
   //substitui o conteúdo da id pela var texto (com a mensagem criptografada)
   conteudoCaixa.innerHTML = texto;
   
   //oculta imagem e mensagem, e disponibiliza o botão para Copiar
   document.getElementById("imagem").style.display = "none";
-  document.getElementById("texto-ocultar").style.display = "none";
+  document.getElementById("campo").style.display = "none";
   document.getElementById("adicionar-botao").style.display = "flex";
 }
 
@@ -33,20 +33,20 @@ function Descriptografar() {
   texto = texto.replace(/ufat/g, 'u') 
  
   //seleciona o conteúdo do <h3 id="campo">
-  var conteudoCaixa = document.getElementById("campo");
+  var conteudoCaixa = document.getElementById("texto-trocar");
 
   //substitui o conteúdo da id pela var texto (com a mensagem criptografada)
   conteudoCaixa.innerHTML = texto;
   
   //oculta imagem e mensagem, e disponibiliza o botão para Copiar 
   document.getElementById("imagem").style.display = "none";
-  document.getElementById("texto-ocultar").style.display = "none";
+  document.getElementById("campo").style.display = "none";
   document.getElementById("adicionar-botao").style.display = "flex";
 }
 
 //adiciona o evento ao botão copiar, pesquisando pelo seletor #campo e seu conteúdo!
 document.getElementById('botao-copiar').addEventListener('click', copiarClipboard);
 async function copiarClipboard () {
-  var textoCopiado = document.querySelector('#campo').textContent;
+  var textoCopiado = document.querySelector('#texto-trocar').textContent;
   await navigator.clipboard.writeText(textoCopiado);
 }
