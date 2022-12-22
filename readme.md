@@ -34,7 +34,7 @@ Um botão que copie o texto criptografado/descriptografado para a área de trans
 ## O projeto:
 
 <div align="center">
-<img src="./imagens/decodificador.png" width="80%">
+<img src="./imagens/decodificador.png" width="80%" style="border-radius:30px;">
 
 
 [Link para o Figma](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=16%3A802&t=ztgwDhWs8pabnFKr-0)
@@ -51,14 +51,14 @@ Ou seja: parabens por encarar esse desafio e ter finalizado ele com sucesso! �
 
 <img align="right" height="200" style="border-radius:70px;" src="./imagens/badge.png">
 
-[X] Subir o projeto para o GitHub;
+- [X] Subir o projeto para o GitHub;
 
-[X] Publicar no GitHub Pages;
+- [X] Publicar no GitHub Pages;
 
-[X] Adicionar a #challengeonedecodificador4;
+- [X] Adicionar a #challengeonedecodificador4;
 
-[X] Preencher o formulário de envio https://lp.alura.com.br/alura-latam-entrega-challenge-one-portugues com o link do GitHub Pages (projeto publicado);
+- [X] Preencher o formulário de envio https://lp.alura.com.br/alura-latam-entrega-challenge-one-portugues com o link do GitHub Pages (projeto publicado);
 
-[X] Verifique seu e-mail e receba seu selo;
+- [X] Verifique seu e-mail e receba seu selo;
 
-[ ] Poste um vídeo e/ou seu projeto no Linkedin.
+- [ ] Poste um vídeo e/ou seu projeto no Linkedin.
