@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #E5E5E5;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+header {
+  margin: 2rem 4rem;
+}
+
+main {
+ margin: 0 2rem;
+}
+
+/* área texto */
+
+.area-texto {
+  position: absolute;
+  margin: 1rem 6rem;
+}
+
+.texto textarea {
+  font-family: 'Inter', sans-serif;
+  margin: 4rem;
+  font-size: 2rem;
+  color: #0A3871;
+  background: #E5E5E5;
+  border: none;
+  outline: 0;
+}
+
+.obs {
+  font-size: 0.8rem;
+  color: #495057;
+  margin-top: 7rem;
+}
+
+.obs img, p {
+  display: inline;
+}
+
+.botoes {
+  margin-top: 1rem;
+}
+
+#botao-cripto {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  gap: 0.5rem;
+
+  background: #0A3871;
+  border: 1px solid #0A3871;
+  color: white;
+  border-radius: 1rem;
+}
+
+#botao-cripto:hover {
+  background: #D8DFE8;
+  color: black;
+  border: 1px solid black;
+}
+
+#botao-descripto {
+background: #D8DFE8;
+padding: 1.5rem 3rem;
+gap: 0.5rem;
+
+border: 1px solid #0A3871;
+color: #0A3871;
+border-radius: 1rem;
+box-sizing: border-box;
+}
+
+#botao-descripto:hover {
+  background: #0A3871;
+  color: white;
+  cursor: pointer;
+  }
+
+/* barra lateral */
+
+#barra-lateral {
+  float: right;
+
+  height: 37.5rem;
+  background: #ffffff;
+  border-radius: 2rem;
+  margin-top: -5rem;
+  padding: 7rem 2rem;
+  box-sizing: border-box;
+  width: 30%;
+  margin-right: 2.5rem;
+}
+
+.bloco {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.bloco img {
+  width: 70%;
+  align-self: center;
+}
+
+.bloco h3 {
+  font-size: 1.5rem;
+  margin: .8rem 0;
+  font-weight: bold;
+  color: #343A40;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#texto-trocar {
+  line-height: 1.5rem;
+  text-align: center;
+  text-overflow: clip;
+}
+
+#adicionar-botao {
+  justify-content:center;
+}
+
+#botao-copiar {
+  padding: 1.5rem 5rem;
+  margin-top: 3rem;
+
+  background: #0A3871;
+  border: 1px solid #0A3871;
+  color: white;
+  border-radius: 1rem;
+}
+
+#botao-copiar:hover {
+  background: #D8DFE8;
+  color: black;
+  border: 1px solid black;
+}
+
+/* rodapé */
+
+footer {
+  clear: both;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* media queries */
+
+/* Large devicez: 1023 > */
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+
+  .area-texto {
+    position: relative;
+    margin: 1rem 7rem;
+  }
+
+  .obs {
+    margin: 0;
+  }
+  
+  .obs img, p {
+    display: inline;
+  }
+  
+  .botoes {
+    margin: 0;
+  }
+  
+  #barra-lateral {
+    position: relative;
+    height: 24rem;
+
+    background: #ffffff;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    width: 80%;
+    margin-top: 4rem;
+  }
+
+  .texto textarea {
+    font-family: 'Inter', sans-serif;
+    margin: 4rem;
+    font-size: 2rem;
+    color: #0A3871;
+    background: #E5E5E5;
+    border: none;
+    outline: 0;
+    width: 98%;
+  }
+
+  .bloco {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Extra small devices: phones, 600px and down) */
