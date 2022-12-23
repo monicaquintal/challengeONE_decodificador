@@ -167,7 +167,21 @@ footer a {
 
 /* media queries */
 
+@media (min-width: 1201px) {
+  .texto textarea {
+    width: 40rem; 
+  }
+}
+
 /* Large devicez: 1023 > */
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .texto textarea {
+    width: 28rem; 
+    padding: 2rem;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media (max-width: 992px) {
 
@@ -177,15 +191,27 @@ footer a {
   }
 
   .obs {
-    margin: 0;
+    margin-top: 0;
   }
   
   .obs img, p {
     display: inline;
   }
   
-  .botoes {
+  .area-texto .obs, .area-texto .botoes {
     margin: 0;
+    padding: 0 -4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  #botao-cripto {
+    padding: 1.5rem 6rem;
+  }
+
+  #botao-descripto {
+    padding: 1.5rem 5rem;
+    gap: 1rem;
   }
   
   #barra-lateral {
@@ -200,14 +226,8 @@ footer a {
   }
 
   .texto textarea {
-    font-family: 'Inter', sans-serif;
     margin: 4rem;
     font-size: 2rem;
-    color: #0A3871;
-    background: #E5E5E5;
-    border: none;
-    outline: 0;
-    width: 98%;
   }
 
   .bloco {
